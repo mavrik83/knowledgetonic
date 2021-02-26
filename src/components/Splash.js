@@ -1,16 +1,22 @@
+import { makeStyles } from "@material-ui/core";
 import React from "react";
 import Particles from "react-particles-js";
 import HideOnScroll from "./HideOnScroll";
 
-const Splash = (props) => {
+const useStyles = makeStyles((theme) => ({
+  particlesCanvas: {
+    position: "fixed",
+    zIndex: 0,
+  },
+}));
+
+const Splash = () => {
+  const classes = useStyles();
   return (
-    <HideOnScroll {...props}>
+    <HideOnScroll>
       <Particles
+        canvasClassName={classes.particlesCanvas}
         params={{
-          backgroundMode: {
-            enable: true,
-            zIndex: 1,
-          },
           particles: {
             color: "#C96C08",
             number: {

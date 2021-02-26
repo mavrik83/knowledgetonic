@@ -20,8 +20,12 @@ const Intro = () => {
   const classes = useStyles();
   const trigger = useScrollTrigger({ disableHysteresis: true });
   return (
-    <Fade in={!trigger} direction="down" timeout={1000}>
-      <Box height="95vh" id="back-to-top-anchor">
+    <Fade in={!trigger} direction="down" timeout={2000}>
+      <Box
+        height="95vh"
+        id="back-to-top-anchor"
+        style={{ zIndex: 1, position: "relative" }}
+      >
         <Grid
           container
           spacing={0}
