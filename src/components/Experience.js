@@ -33,6 +33,7 @@ const Experience = () => {
       </Grid>
       <VerticalTimeline>
         <VerticalTimelineElement
+          visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #262626" }}
@@ -64,6 +65,7 @@ const Experience = () => {
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
+          visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #262626" }}
@@ -82,6 +84,7 @@ const Experience = () => {
           </Typography>
         </VerticalTimelineElement>
         <VerticalTimelineElement
+          visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #262626" }}
@@ -100,6 +103,7 @@ const Experience = () => {
           </Typography>
         </VerticalTimelineElement>
         <VerticalTimelineElement
+          visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #262626" }}
@@ -136,6 +140,7 @@ const Experience = () => {
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
+          visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #262626" }}
