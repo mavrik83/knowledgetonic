@@ -105,7 +105,7 @@ const renderSkills = (matches) => {
     return (
       <>
         <Grid
-          spacing={6}
+          spacing={4}
           container
           direction="row"
           justify="center"
@@ -128,7 +128,7 @@ const renderSkills = (matches) => {
           </Grid>
         </Grid>
         <Grid
-          spacing={6}
+          spacing={4}
           container
           direction="row"
           justify="center"
@@ -151,7 +151,7 @@ const renderSkills = (matches) => {
           </Grid>
         </Grid>
         <Grid
-          spacing={6}
+          spacing={4}
           container
           direction="row"
           justify="center"

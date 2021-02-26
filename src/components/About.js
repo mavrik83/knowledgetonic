@@ -15,7 +15,7 @@ const About = () => {
   return (
     <Container
       display="flex"
-      style={{ minHeight: "50vh", marginTop: "20vh", marginBottom: "10vh" }}
+      style={{ marginTop: "20vh", marginBottom: "10vh" }}
     >
       <Grid
         container
@@ -49,7 +49,7 @@ const About = () => {
             src={profilePic}
             style={{
               filter: "grayscale(100%)",
-              minWidth: "200px",
+              minWidth: "150px",
               maxWidth: "300px",
               border: "2px solid white",
               borderRadius: "15px",
