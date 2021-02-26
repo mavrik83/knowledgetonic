@@ -1,25 +1,74 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  makeStyles,
+  Box,
+  useScrollTrigger,
+  Zoom,
+  Fab,
+} from "@material-ui/core";
+import { VscFoldUp } from "react-icons/vsc";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Intro from "./components/Intro";
+import Skills from "./components/Skills";
+import Splash from "./components/Splash";
+import Footer from "./components/Footer";
 
-function App() {
+const useStyles = makeStyles((theme) => ({
+  root: {
+    background: "linear-gradient(#262626 30%, #858585 90%)",
+  },
+  scroll: {
+    position: "fixed",
+    bottom: theme.spacing(2),
+    right: theme.spacing(2),
+  },
+}));
+
+const ScrollTop = (props) => {
+  const classes = useStyles();
+  const { children } = props;
+  const trigger = useScrollTrigger({
+    disableHysteresis: true,
+    threshold: 100,
+  });
+
+  const handleClick = (event) => {
+    const anchor = (event.target.ownerDocument || document).querySelector(
+      "#back-to-top-anchor"
+    );
+    if (anchor) {
+      anchor.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Zoom in={trigger}>
+      <div onClick={handleClick} className={classes.scroll}>
+        {children}
+      </div>
+    </Zoom>
   );
-}
+};
+
+const App = (props) => {
+  const classes = useStyles();
+
+  return (
+    <Box className={classes.root}>
+      <Splash />
+      <ScrollTop {...props}>
+        <Fab color="primary" size="small" aria-label="scroll back to top">
+          <VscFoldUp />
+        </Fab>
+      </ScrollTop>
+      <Intro />
+      <Skills />
+      <About />
+      <Experience />
+      <Footer />
+    </Box>
+  );
+};
 
 export default App;
