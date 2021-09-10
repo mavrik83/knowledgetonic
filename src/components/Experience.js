@@ -36,7 +36,7 @@ const Experience = () => {
           visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #262626" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
           date="2020 - 2021"
           iconStyle={{ background: "#C96C08", color: "#fff" }}
           icon={<AiFillCode />}
@@ -46,7 +46,7 @@ const Experience = () => {
           </Typography>
           <Typography
             variant="h6"
-            className="vertical-timeline-element-subtitle"
+            className={`vertical-timeline-element-subtitle ${classes.customColor}`}
           >
             Flatiron School
           </Typography>
@@ -68,7 +68,7 @@ const Experience = () => {
           visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #262626" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
           date="2018 - 2020"
           iconStyle={{ background: "#C96C08", color: "#fff" }}
           icon={<IoSchoolSharp />}
@@ -78,7 +78,7 @@ const Experience = () => {
           </Typography>
           <Typography
             variant="h6"
-            className="vertical-timeline-element-subtitle"
+            className={`vertical-timeline-element-subtitle ${classes.customColor}`}
           >
             American University
           </Typography>
@@ -87,7 +87,7 @@ const Experience = () => {
           visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #262626" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
           date="2016 - 2018"
           iconStyle={{ background: "#C96C08", color: "#fff" }}
           icon={<IoSchoolSharp />}
@@ -97,7 +97,7 @@ const Experience = () => {
           </Typography>
           <Typography
             variant="h6"
-            className="vertical-timeline-element-subtitle"
+            className={`vertical-timeline-element-subtitle ${classes.customColor}`}
           >
             Northern Virginia Community College
           </Typography>
@@ -106,7 +106,7 @@ const Experience = () => {
           visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #262626" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
           date="2013 - 2018"
           iconStyle={{ background: "#C96C08", color: "#fff" }}
           icon={<GiHelicopter />}
@@ -116,7 +116,7 @@ const Experience = () => {
           </Typography>
           <Typography
             variant="h6"
-            className="vertical-timeline-element-subtitle"
+            className={`vertical-timeline-element-subtitle ${classes.customColor}`}
           >
             Metro Aviation, Inc.
           </Typography>
@@ -143,7 +143,7 @@ const Experience = () => {
           visible
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  #262626" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
           date="2001 - 2011"
           iconStyle={{ background: "#C96C08", color: "#fff" }}
           icon={<GiHelicopter />}
@@ -153,7 +153,7 @@ const Experience = () => {
           </Typography>
           <Typography
             variant="h6"
-            className="vertical-timeline-element-subtitle"
+            className={`vertical-timeline-element-subtitle ${classes.customColor}`}
           >
             United States Army
           </Typography>

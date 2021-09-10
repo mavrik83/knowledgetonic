@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    background: "linear-gradient(#262626 30%, #858585 90%)",
+    background: "linear-gradient(#1F1F1F 30%, #363636 90%)",
   },
   scroll: {
     position: "fixed",
