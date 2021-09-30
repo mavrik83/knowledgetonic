@@ -37,7 +37,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
-          date="2020 - 2021"
+          date="2021 - Current"
           iconStyle={{ background: "#C96C08", color: "#fff" }}
           icon={<AiFillCode />}
         >
@@ -51,9 +51,12 @@ const Experience = () => {
             Remine Inc.
           </Typography>
           <ul>
-            <li>TypeScript</li>
-            <li>Express</li>
-            <li>React</li>
+            <li>Primary Technologies used:</li>
+            <ul>
+              <li>TypeScript</li>
+              <li>Express</li>
+              <li>React</li>
+            </ul>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -61,7 +64,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           contentStyle={{ background: "#595959", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
-          date="2020 - 2021"
+          date="2021 - Current"
           iconStyle={{ background: "#C96C08", color: "#fff" }}
           icon={<AiFillCode />}
         >
@@ -75,9 +78,13 @@ const Experience = () => {
             The Souper Bowl of Caring
           </Typography>
           <ul>
-            <li>TypeScript</li>
-            <li>GraphQL</li>
-            <li>React</li>
+            <li>Ongoing Contract</li>
+            <li>Primary Technologies used:</li>
+            <ul>
+              <li>TypeScript</li>
+              <li>GraphQL</li>
+              <li>React</li>
+            </ul>
           </ul>
         </VerticalTimelineElement>
         <VerticalTimelineElement
