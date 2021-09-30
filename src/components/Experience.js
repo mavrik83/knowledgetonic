@@ -42,6 +42,54 @@ const Experience = () => {
           icon={<AiFillCode />}
         >
           <Typography variant="h5" className="vertical-timeline-element-title">
+            Fullstack Software Engineer
+          </Typography>
+          <Typography
+            variant="h6"
+            className={`vertical-timeline-element-subtitle ${classes.customColor}`}
+          >
+            Remine Inc.
+          </Typography>
+          <ul>
+            <li>TypeScript</li>
+            <li>Express</li>
+            <li>React</li>
+          </ul>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          visible
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#595959", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
+          date="2020 - 2021"
+          iconStyle={{ background: "#C96C08", color: "#fff" }}
+          icon={<AiFillCode />}
+        >
+          <Typography variant="h5" className="vertical-timeline-element-title">
+            Fullstack Software Engineer
+          </Typography>
+          <Typography
+            variant="h6"
+            className={`vertical-timeline-element-subtitle ${classes.customColor}`}
+          >
+            The Souper Bowl of Caring
+          </Typography>
+          <ul>
+            <li>TypeScript</li>
+            <li>GraphQL</li>
+            <li>React</li>
+          </ul>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          visible
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "#595959", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  #C96C08" }}
+          date="2020 - 2021"
+          iconStyle={{ background: "#C96C08", color: "#fff" }}
+          icon={<AiFillCode />}
+        >
+          <Typography variant="h5" className="vertical-timeline-element-title">
             Fullstack Software Engineering Program
           </Typography>
           <Typography
